@@ -64,7 +64,7 @@ output$plot3 <- renderLeaflet({
     filter(year == input$year3)
     
   ico <- makeIcon(
-    iconUrl = "unnamed.png",
+    iconUrl = "images/unnamed.png",
     iconWidth= 20, iconHeight=20
   )
   map1 <- leaflet()
